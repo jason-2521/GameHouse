@@ -47,13 +47,19 @@
 </head>
 <body class="min-h-screen">
     <header class="bg-cyber-dark py-6 px-4 md:px-8">
-        <div class="container mx-auto">
-            <h1 class="text-4xl md:text-6xl font-bold text-center cyber-glow text-cyber-pink mb-4">
-                Leap Void
-            </h1>
-            <p class="text-xl md:text-2xl text-center text-cyber-blue mb-8">
-                Master the art of survival in this neon-lit cyberpunk platformer
-            </p>
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <div>
+                <h1 id="title" class="text-4xl md:text-6xl font-bold text-center cyber-glow text-cyber-pink mb-4">
+                    Leap Void
+                </h1>
+                <p id="subtitle" class="text-xl md:text-2xl text-center text-cyber-blue mb-8">
+                    Master the art of survival in this neon-lit cyberpunk platformer
+                </p>
+            </div>
+            <div class="mt-4 md:mt-0 flex justify-center md:justify-end w-full md:w-auto">
+                <button id="lang-en" class="mr-2 px-3 py-1 rounded cyber-border text-cyber-blue bg-cyber-dark">English</button>
+                <button id="lang-zh" class="px-3 py-1 rounded cyber-border text-cyber-pink bg-cyber-dark">中文</button>
+            </div>
         </div>
     </header>
 
@@ -68,40 +74,40 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <section class="cyber-border p-6 rounded-lg">
-                <h2 class="text-2xl md:text-3xl font-bold text-cyber-pink mb-4">Game Overview</h2>
-                <p class="text-gray-300 leading-relaxed">
+                <h2 id="overview-title" class="text-2xl md:text-3xl font-bold text-cyber-pink mb-4">Game Overview</h2>
+                <p id="overview-desc" class="text-gray-300 leading-relaxed">
                     Leap Void is an intense platformer that tests your reflexes and timing. Navigate through a futuristic world filled with neon obstacles and deadly traps. Your mission is simple: survive as long as possible while collecting power-ups and achieving high scores.
                 </p>
             </section>
 
             <section class="cyber-border p-6 rounded-lg">
-                <h2 class="text-2xl md:text-3xl font-bold text-cyber-pink mb-4">How to Play</h2>
+                <h2 id="how-title" class="text-2xl md:text-3xl font-bold text-cyber-pink mb-4">How to Play</h2>
                 <ul class="text-gray-300 space-y-2">
-                    <li>• Use arrow keys or WASD to control your character</li>
-                    <li>• Time your jumps perfectly to avoid obstacles</li>
-                    <li>• Collect power-ups to enhance your abilities</li>
-                    <li>• Survive as long as possible to achieve high scores</li>
+                    <li id="how-1">• Use arrow keys or WASD to control your character</li>
+                    <li id="how-2">• Time your jumps perfectly to avoid obstacles</li>
+                    <li id="how-3">• Collect power-ups to enhance your abilities</li>
+                    <li id="how-4">• Survive as long as possible to achieve high scores</li>
                 </ul>
             </section>
 
             <section class="cyber-border p-6 rounded-lg">
-                <h2 class="text-2xl md:text-3xl font-bold text-cyber-pink mb-4">Features</h2>
+                <h2 id="features-title" class="text-2xl md:text-3xl font-bold text-cyber-pink mb-4">Features</h2>
                 <ul class="text-gray-300 space-y-2">
-                    <li>• Stunning cyberpunk visuals</li>
-                    <li>• Progressive difficulty system</li>
-                    <li>• Power-up system</li>
-                    <li>• Global leaderboards</li>
-                    <li>• Responsive controls</li>
+                    <li id="features-1">• Stunning cyberpunk visuals</li>
+                    <li id="features-2">• Progressive difficulty system</li>
+                    <li id="features-3">• Power-up system</li>
+                    <li id="features-4">• Global leaderboards</li>
+                    <li id="features-5">• Responsive controls</li>
                 </ul>
             </section>
 
             <section class="cyber-border p-6 rounded-lg">
-                <h2 class="text-2xl md:text-3xl font-bold text-cyber-pink mb-4">Tips & Tricks</h2>
+                <h2 id="tips-title" class="text-2xl md:text-3xl font-bold text-cyber-pink mb-4">Tips & Tricks</h2>
                 <ul class="text-gray-300 space-y-2">
-                    <li>• Watch for pattern changes in obstacles</li>
-                    <li>• Don't get greedy with power-ups</li>
-                    <li>• Practice timing your jumps</li>
-                    <li>• Stay focused on upcoming obstacles</li>
+                    <li id="tips-1">• Watch for pattern changes in obstacles</li>
+                    <li id="tips-2">• Don't get greedy with power-ups</li>
+                    <li id="tips-3">• Practice timing your jumps</li>
+                    <li id="tips-4">• Stay focused on upcoming obstacles</li>
                 </ul>
             </section>
         </div>
@@ -109,8 +115,74 @@
 
     <footer class="bg-cyber-dark py-6 px-4 mt-8">
         <div class="container mx-auto text-center text-gray-400">
-            <p>&copy; 2024 Games House. All rights reserved.</p>
+            <p id="footer">&copy; 2024 Games House. All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+    const translations = {
+        en: {
+            title: "Leap Void",
+            subtitle: "Master the art of survival in this neon-lit cyberpunk platformer",
+            "overview-title": "Game Overview",
+            "overview-desc": "Leap Void is an intense platformer that tests your reflexes and timing. Navigate through a futuristic world filled with neon obstacles and deadly traps. Your mission is simple: survive as long as possible while collecting power-ups and achieving high scores.",
+            "how-title": "How to Play",
+            "how-1": "• Use arrow keys or WASD to control your character",
+            "how-2": "• Time your jumps perfectly to avoid obstacles",
+            "how-3": "• Collect power-ups to enhance your abilities",
+            "how-4": "• Survive as long as possible to achieve high scores",
+            "features-title": "Features",
+            "features-1": "• Stunning cyberpunk visuals",
+            "features-2": "• Progressive difficulty system",
+            "features-3": "• Power-up system",
+            "features-4": "• Global leaderboards",
+            "features-5": "• Responsive controls",
+            "tips-title": "Tips & Tricks",
+            "tips-1": "• Watch for pattern changes in obstacles",
+            "tips-2": "• Don't get greedy with power-ups",
+            "tips-3": "• Practice timing your jumps",
+            "tips-4": "• Stay focused on upcoming obstacles",
+            footer: "© 2024 Games House. All rights reserved."
+        },
+        zh: {
+            title: "虚空跃迁",
+            subtitle: "在霓虹赛博世界中掌握生存艺术",
+            "overview-title": "游戏简介",
+            "overview-desc": "虚空跃迁是一款考验反应和时机的高强度平台跳跃游戏。穿越充满霓虹障碍和致命陷阱的未来世界。你的任务很简单：尽可能长时间生存，同时收集强化道具并争取高分。",
+            "how-title": "玩法说明",
+            "how-1": "• 使用方向键或WASD控制角色",
+            "how-2": "• 精准把握跳跃时机以避开障碍",
+            "how-3": "• 收集强化道具提升能力",
+            "how-4": "• 尽可能长时间生存以获得高分",
+            "features-title": "游戏特色",
+            "features-1": "• 赛博朋克视觉盛宴",
+            "features-2": "• 难度逐步提升系统",
+            "features-3": "• 强化道具系统",
+            "features-4": "• 全球排行榜",
+            "features-5": "• 响应式操作体验",
+            "tips-title": "小贴士",
+            "tips-1": "• 注意障碍物的变化规律",
+            "tips-2": "• 不要贪心收集道具",
+            "tips-3": "• 多练习跳跃时机",
+            "tips-4": "• 保持专注于前方障碍",
+            footer: "© 2024 Games House. 保留所有权利。"
+        }
+    };
+
+    function setLanguage(lang) {
+        const dict = translations[lang];
+        for (const key in dict) {
+            const el = document.getElementById(key);
+            if (el) {
+                el.textContent = dict[key];
+            }
+        }
+    }
+
+    document.getElementById('lang-en').onclick = function() { setLanguage('en'); };
+    document.getElementById('lang-zh').onclick = function() { setLanguage('zh'); };
+    // 默认语言
+    setLanguage('en');
+    </script>
 </body>
 </html> 
