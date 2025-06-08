@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leap Void - Epic Cyberpunk Platformer Game | Games House</title>
+    <meta name="description" content="Play Leap Void online - An intense cyberpunk platformer where you leap through neon-lit obstacles in a futuristic world. Challenge your reflexes and survive!">
+    <link rel="canonical" href="https://games-house.com/leapvoid" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'cyber-pink': '#ff00ff',
+                        'cyber-blue': '#00ffff',
+                        'cyber-dark': '#1a1a2e',
+                        'cyber-purple': '#9d00ff'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Orbitron', sans-serif;
+            background-color: #1a1a2e;
+            color: #ffffff;
+        }
+        
+        .cyber-glow {
+            text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+        }
+        
+        .cyber-border {
+            border: 2px solid #00ffff;
+            box-shadow: 0 0 10px #00ffff;
+        }
+        
+        .game-container {
+            aspect-ratio: 16/9;
+            max-height: 80vh;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <header class="bg-cyber-dark py-6 px-4 md:px-8">
+        <div class="container mx-auto">
+            <h1 class="text-4xl md:text-6xl font-bold text-center cyber-glow text-cyber-pink mb-4">
+                Leap Void
+            </h1>
+            <p class="text-xl md:text-2xl text-center text-cyber-blue mb-8">
+                Master the art of survival in this neon-lit cyberpunk platformer
+            </p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="game-container w-full mx-auto cyber-border rounded-lg overflow-hidden mb-8">
+            <iframe src="https://www.crazygames.com/embed/leap-and-avoid-2" 
+                    style="width: 100%; height: 100%;" 
+                    frameborder="0" 
+                    allow="gamepad *;">
+            </iframe>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <section class="cyber-border p-6 rounded-lg">
+                <h2 class="text-2xl md:text-3xl font-bold text-cyber-pink mb-4">Game Overview</h2>
+                <p class="text-gray-300 leading-relaxed">
+                    Leap Void is an intense platformer that tests your reflexes and timing. Navigate through a futuristic world filled with neon obstacles and deadly traps. Your mission is simple: survive as long as possible while collecting power-ups and achieving high scores.
+                </p>
+            </section>
+
+            <section class="cyber-border p-6 rounded-lg">
+                <h2 class="text-2xl md:text-3xl font-bold text-cyber-pink mb-4">How to Play</h2>
+                <ul class="text-gray-300 space-y-2">
+                    <li>• Use arrow keys or WASD to control your character</li>
+                    <li>• Time your jumps perfectly to avoid obstacles</li>
+                    <li>• Collect power-ups to enhance your abilities</li>
+                    <li>• Survive as long as possible to achieve high scores</li>
+                </ul>
+            </section>
+
+            <section class="cyber-border p-6 rounded-lg">
+                <h2 class="text-2xl md:text-3xl font-bold text-cyber-pink mb-4">Features</h2>
+                <ul class="text-gray-300 space-y-2">
+                    <li>• Stunning cyberpunk visuals</li>
+                    <li>• Progressive difficulty system</li>
+                    <li>• Power-up system</li>
+                    <li>• Global leaderboards</li>
+                    <li>• Responsive controls</li>
+                </ul>
+            </section>
+
+            <section class="cyber-border p-6 rounded-lg">
+                <h2 class="text-2xl md:text-3xl font-bold text-cyber-pink mb-4">Tips & Tricks</h2>
+                <ul class="text-gray-300 space-y-2">
+                    <li>• Watch for pattern changes in obstacles</li>
+                    <li>• Don't get greedy with power-ups</li>
+                    <li>• Practice timing your jumps</li>
+                    <li>• Stay focused on upcoming obstacles</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-cyber-dark py-6 px-4 mt-8">
+        <div class="container mx-auto text-center text-gray-400">
+            <p>&copy; 2024 Games House. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
