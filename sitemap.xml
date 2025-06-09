@@ -1,13 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- 主页 -->
   <url>
     <loc>https://games-house.com/</loc>
+    <lastmod>2024-12-10</lastmod>
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-house.com/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://games-house.com/" />
   </url>
+
+  <!-- 游戏页面 -->
   <url>
-    <loc>https://games-house.com/leapvoid</loc>
+    <loc>https://games-house.com/games/leap-and-avoid-2.html</loc>
+    <lastmod>2024-12-10</lastmod>
     <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-house.com/games/leap-and-avoid-2.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://games-house.com/games/leap-and-avoid-2.html" />
+  </url>
+
+  <url>
+    <loc>https://games-house.com/games/ragdoll-archers.html</loc>
+    <lastmod>2024-12-10</lastmod>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-house.com/games/ragdoll-archers.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://games-house.com/games/ragdoll-archers.html" />
+  </url>
+
+  <url>
+    <loc>https://games-house.com/games/count-masters-stickman-games.html</loc>
+    <lastmod>2024-12-10</lastmod>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-house.com/games/count-masters-stickman-games.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://games-house.com/games/count-masters-stickman-games.html" />
+  </url>
+
+  <url>
+    <loc>https://games-house.com/games/buildnow-gg.html</loc>
+    <lastmod>2024-12-10</lastmod>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-house.com/games/buildnow-gg.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://games-house.com/games/buildnow-gg.html" />
+  </url>
+
+  <!-- 兼容旧URL -->
+  <url>
+    <loc>https://games-house.com/games/leapvoid.html</loc>
+    <lastmod>2024-12-10</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://games-house.com/games/ragdollarchers.html</loc>
+    <lastmod>2024-12-10</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://games-house.com/games/puzzlemaster.html</loc>
+    <lastmod>2024-12-10</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- 分类页面 -->
+  <url>
+    <loc>https://games-house.com/#action</loc>
+    <lastmod>2024-12-10</lastmod>
+    <priority>0.7</priority>
     <changefreq>weekly</changefreq>
   </url>
-</urlset> 
+
+  <url>
+    <loc>https://games-house.com/#puzzle</loc>
+    <lastmod>2024-12-10</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+</urlset>

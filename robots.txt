@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+
+# 站点地图
+Sitemap: https://games-house.com/sitemap.xml
+
+# 允许搜索引擎访问所有内容
+Allow: /games/
+Allow: /assets/
+
+# 禁止访问敏感文件
+Disallow: /*.json$
+Disallow: /BingSiteAuth.xml
+
+# 爬取延迟（可选）
+Crawl-delay: 1
+
+# 主要搜索引擎特定设置
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
