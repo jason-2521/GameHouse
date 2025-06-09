@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuildNow GG - Games House</title>
+    <meta name="description" content="BuildNow GG - An online build-and-shoot game featuring various game modes, weapons, and maps. Build and battle your way to the top!">
+    <link rel="canonical" href="https://games-house.com/games/buildnow-gg.html" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E3K854L399"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-E3K854L399');
+    </script>
+    <style>
+        body { font-family: 'Orbitron', sans-serif; background-color: #1a1a2e; color: #fff; }
+        .cyber-glow { text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff; }
+        .cyber-border { border: 2px solid #00ffff; box-shadow: 0 0 10px #00ffff; }
+        .game-container { aspect-ratio: 16/9; min-height: 400px; height: 60vh; max-height: 80vh; }
+    </style>
+</head>
+<body class="min-h-screen">
+    <header class="bg-cyber-dark py-4 px-4 md:px-8 sticky top-0 z-50">
+        <nav class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <a href="../index.html" class="text-2xl font-bold text-cyber-pink cyber-glow mb-2 md:mb-0">Games House</a>
+            <div class="flex space-x-4 mb-2 md:mb-0">
+                <a href="../index.html#action" class="text-cyber-blue hover:underline" id="nav-action">Action</a>
+                <a href="../index.html#puzzle" class="text-cyber-blue hover:underline" id="nav-puzzle">Puzzle</a>
+            </div>
+            <div class="flex items-center space-x-2">
+                <input id="search-input" type="text" placeholder="Search games..." class="px-2 py-1 rounded border border-cyber-blue bg-cyber-dark text-white focus:outline-none" />
+                <button id="lang-en" class="px-2 py-1 rounded cyber-border text-cyber-blue bg-cyber-dark">English</button>
+                <button id="lang-zh" class="px-2 py-1 rounded cyber-border text-cyber-pink bg-cyber-dark">中文</button>
+            </div>
+        </nav>
+    </header>
+    <main class="container mx-auto px-4 py-8" id="game-detail"></main>
+    <footer class="bg-cyber-dark py-6 px-4 mt-8">
+        <div class="container mx-auto text-center text-gray-400">
+            <p id="footer">© 2024 Games House. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+const LANGS = ['en', 'zh'];
+let currentLang = 'en';
+const CATEGORY_LABELS = {
+  action: {en: 'Action Games', zh: '动作类游戏'},
+  puzzle: {en: 'Puzzle Games', zh: '益智类游戏'}
+};
+const UI_LABELS = {
+  search: {en: 'Search games...', zh: '搜索游戏...'},
+  play: {en: 'Play Now', zh: '进入游戏'},
+  nav: {
+    action: {en: 'Action', zh: '动作'},
+    puzzle: {en: 'Puzzle', zh: '益智'}
+  },
+  footer: {en: '© 2024 Games House. All rights reserved.', zh: '© 2024 Games House. 保留所有权利。'},
+  overview: {en: 'Game Overview', zh: '游戏简介'},
+  howto: {en: 'How to Play', zh: '玩法说明'},
+  features: {en: 'Features', zh: '游戏特色'},
+  tips: {en: 'Tips & Tricks', zh: '小贴士'}
+};
+const gameId = window.location.pathname.split('/').pop().replace('.html','');
+function renderGameDetail(game) {
+  document.title = `${game.name[currentLang]} - Games House`;
+  document.querySelector('meta[name=description]').setAttribute('content', game.description[currentLang]);
+  document.getElementById('game-detail').innerHTML = `
+    <div class="flex flex-col md:flex-row gap-8">
+      <div class="flex-1">
+        <img src="${game.cover}" alt="${game.name[currentLang]}" class="w-full h-72 object-cover rounded-lg cyber-border mb-6">
+        <div class="game-container w-full mx-auto cyber-border rounded-lg overflow-hidden mb-8">
+          <iframe src="${game.iframe}" style="width: 100%; height: 100%;" frameborder="0" allow="gamepad *;"></iframe>
+        </div>
+      </div>
+      <div class="flex-1 flex flex-col gap-6">
+        <section class="cyber-border p-6 rounded-lg">
+          <h1 class="text-3xl md:text-4xl font-bold text-cyber-pink cyber-glow mb-4">${game.name[currentLang]}</h1>
+          <h2 class="text-xl font-bold text-cyber-blue mb-2">${UI_LABELS.overview[currentLang]}</h2>
+          <p class="text-gray-300 leading-relaxed mb-4">${game.description[currentLang]}</p>
+          <h2 class="text-xl font-bold text-cyber-blue mb-2">${UI_LABELS.howto[currentLang]}</h2>
+          <ul class="text-gray-300 space-y-2 mb-4">${game.howto[currentLang].map(i=>`<li>• ${i}</li>`).join('')}</ul>
+          <h2 class="text-xl font-bold text-cyber-blue mb-2">${UI_LABELS.features[currentLang]}</h2>
+          <ul class="text-gray-300 space-y-2 mb-4">${game.features[currentLang].map(i=>`<li>• ${i}</li>`).join('')}</ul>
+          <h2 class="text-xl font-bold text-cyber-blue mb-2">${UI_LABELS.tips[currentLang]}</h2>
+          <ul class="text-gray-300 space-y-2">${game.tips[currentLang].map(i=>`<li>• ${i}</li>`).join('')}</ul>
+        </section>
+      </div>
+    </div>
+  `;
+}
+document.getElementById('lang-en').onclick = function() { currentLang = 'en'; updateUILang(); renderGameDetail(window.currentGame); };
+document.getElementById('lang-zh').onclick = function() { currentLang = 'zh'; updateUILang(); renderGameDetail(window.currentGame); };
+function updateUILang() {
+  document.getElementById('search-input').placeholder = UI_LABELS.search[currentLang];
+  document.getElementById('nav-action').textContent = UI_LABELS.nav.action[currentLang];
+  document.getElementById('nav-puzzle').textContent = UI_LABELS.nav.puzzle[currentLang];
+  document.getElementById('footer').textContent = UI_LABELS.footer[currentLang];
+}
+function loadGameData() {
+  // 尝试的路径列表
+  const paths = [
+    '../assets/games.json',
+    '../games.json',
+    './assets/games.json',
+    './games.json'
+  ];
+  
+  // 尝试第一个路径
+  tryNextPath(0);
+  
+  function tryNextPath(index) {
+    if (index >= paths.length) {
+      // 所有路径都失败了
+      document.getElementById('game-detail').innerHTML = `
+        <div class="p-6 bg-cyber-dark cyber-border rounded-lg text-center">
+          <h2 class="text-2xl text-cyber-pink mb-4">Game loading error</h2>
+          <p class="text-gray-300">Unable to load game data. Please try refreshing the page.</p>
+          <p class="text-gray-400 mt-2">Error details: All paths failed</p>
+          <a href="../index.html" class="mt-4 inline-block px-4 py-2 bg-cyber-blue text-cyber-dark font-bold rounded">Return to Home</a>
+        </div>
+      `;
+      return;
+    }
+    
+    console.log("Trying to load from:", paths[index]);
+    fetch(paths[index])
+      .then(r => {
+        if (!r.ok) {
+          throw new Error(`HTTP error! status: ${r.status}`);
+        }
+        return r.json();
+      })
+      .then(data => {
+        console.log("Games data loaded from:", paths[index], data);
+        const game = data.find(g=>g.id===gameId);
+        if (game) {
+          window.currentGame = game;
+          renderGameDetail(game);
+          updateUILang();
+        } else {
+          document.getElementById('game-detail').innerHTML = `
+            <div class="p-6 bg-cyber-dark cyber-border rounded-lg text-center">
+              <h2 class="text-2xl text-cyber-pink mb-4">Game not found</h2>
+              <p class="text-gray-300">Sorry, the requested game could not be found.</p>
+              <a href="../index.html" class="mt-4 inline-block px-4 py-2 bg-cyber-blue text-cyber-dark font-bold rounded">Return to Home</a>
+            </div>
+          `;
+        }
+      })
+      .catch(error => {
+        console.error(`Error loading from ${paths[index]}:`, error);
+        // 尝试下一个路径
+        tryNextPath(index + 1);
+      });
+  }
+}
+
+// 启动加载过程
+loadGameData();
+    </script>
+</body>
+</html>

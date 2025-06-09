@@ -1,0 +1,248 @@
+[
+  {
+    "id": "leap-and-avoid-2",
+    "name": {
+      "en": "Leap and Avoid 2",
+      "zh": "跳跃躲避2"
+    },
+    "category": "puzzle",
+    "cover": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMWExYTJlIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzAwZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkxlYXAgYW5kIEF2b2lkIDI8L3RleHQ+PC9zdmc+",
+    "iframe": "https://www.crazygames.com/embed/leap-and-avoid-2",
+    "description": {
+      "en": "Leap and Avoid 2 is a thrilling platform adventure where you guide a nimble white ball through treacherous caves and high-tech labs. Navigate white platforms, dodge the deadly black ones, and uncover hidden paths brimming with coins.",
+      "zh": "跳跃躲避2是一款惊险的平台冒险游戏，你需要引导一个灵活的白球穿越危险的洞穴和高科技实验室。在白色平台上导航，躲避致命的黑色平台，发现充满金币的隐藏路径。"
+    },
+    "howto": {
+      "en": [
+        "Use arrow keys or A and D to move the ball",
+        "Navigate white platforms safely",
+        "Avoid deadly black platforms",
+        "Collect coins to unlock upgrades",
+        "Use R to restart and P to pause"
+      ],
+      "zh": [
+        "使用方向键或A和D移动球体",
+        "安全地在白色平台上导航",
+        "避开致命的黑色平台",
+        "收集金币解锁升级",
+        "使用R重新开始，P暂停游戏"
+      ]
+    },
+    "features": {
+      "en": [
+        "Thrilling platform adventure gameplay",
+        "Treacherous caves and high-tech labs",
+        "Hidden paths with coin rewards",
+        "Upgrade system with shields and speed boosts",
+        "Leaderboard competition"
+      ],
+      "zh": [
+        "惊险的平台冒险玩法",
+        "危险的洞穴和高科技实验室",
+        "带有金币奖励的隐藏路径",
+        "包含护盾和速度提升的升级系统",
+        "排行榜竞争"
+      ]
+    },
+    "tips": {
+      "en": [
+        "Time your movements carefully on platforms",
+        "Look for hidden coin paths",
+        "Use upgrades strategically",
+        "Practice makes perfect for difficult sections"
+      ],
+      "zh": [
+        "在平台上仔细掌握移动时机",
+        "寻找隐藏的金币路径",
+        "策略性地使用升级",
+        "多练习困难部分"
+      ]
+    }
+  },
+  {
+    "id": "ragdoll-archers",
+    "name": {
+      "en": "Ragdoll Archers",
+      "zh": "布娃娃弓箭手"
+    },
+    "category": "action",
+    "cover": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMWExYTJlIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iI2ZmMDBmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPlJhZ2RvbGwgQXJjaGVyczwvdGV4dD48L3N2Zz4=",
+    "iframe": "https://www.crazygames.com/embed/ragdoll-archers",
+    "description": {
+      "en": "Ragdoll Archers is an archery game featuring bow and arrow-equipped stickmen with ragdoll physics. Fire arrows at a range of opponents while earning points to upgrade your abilities and ammunition.",
+      "zh": "布娃娃弓箭手是一款射箭游戏，具有配备弓箭的火柴人和布娃娃物理效果。向各种对手射箭，同时赚取积分来升级你的能力和弹药。"
+    },
+    "howto": {
+      "en": [
+        "Use left mouse button to control the archer",
+        "Use spacebar to jump",
+        "Shoot apples to replenish health and stamina",
+        "Aim carefully before firing",
+        "Collect skulls to upgrade abilities"
+      ],
+      "zh": [
+        "使用鼠标左键控制弓箭手",
+        "使用空格键跳跃",
+        "射击苹果来补充生命值和体力",
+        "射击前仔细瞄准",
+        "收集骷髅升级能力"
+      ]
+    },
+    "features": {
+      "en": [
+        "Realistic ragdoll physics",
+        "Various arrow types and upgrades",
+        "Two-player co-op and PvP modes",
+        "Boss battles and challenging opponents",
+        "Upgrade system using skulls currency"
+      ],
+      "zh": [
+        "真实的布娃娃物理效果",
+        "各种箭矢类型和升级",
+        "双人合作和PvP模式",
+        "Boss战和挑战性对手",
+        "使用骷髅货币的升级系统"
+      ]
+    },
+    "tips": {
+      "en": [
+        "Line up your shots carefully before firing",
+        "Collect flying apples to restore health/stamina",
+        "Red apples restore health, green restore stamina",
+        "Golden apples restore both health and stamina",
+        "Upgrade your abilities using earned skulls"
+      ],
+      "zh": [
+        "射击前仔细瞄准",
+        "收集飞行的苹果来恢复生命值/体力",
+        "红苹果恢复生命值，绿苹果恢复体力",
+        "金苹果同时恢复生命值和体力",
+        "使用获得的骷髅升级你的能力"
+      ]
+    }
+  },
+  {
+    "id": "count-masters-stickman-games",
+    "name": {
+      "en": "Count Masters: Stickman Games",
+      "zh": "计数大师：火柴人游戏"
+    },
+    "category": "action",
+    "cover": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMWExYTJlIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzAwZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkNvdW50IE1hc3RlcnM8L3RleHQ+PC9zdmc+",
+    "iframe": "https://www.crazygames.com/embed/count-masters-stickman-games",
+    "description": {
+      "en": "Count Masters: Stickman Games is a fast-paced running game where you gather a growing army of stickmen to clash against rival crowds. Navigate through obstacles, choose the best paths to multiply your numbers, and lead your team to victory.",
+      "zh": "计数大师：火柴人游戏是一款快节奏的跑酷游戏，你需要聚集不断增长的火柴人军队来对抗敌对人群。穿越障碍，选择最佳路径来增加你的数量，带领团队走向胜利。"
+    },
+    "howto": {
+      "en": [
+        "Move the character by moving the mouse left or right",
+        "Choose gates that give you the best numbers",
+        "Avoid red gates and dangerous traps",
+        "Time your attacks against enemies",
+        "Collect coins to upgrade your abilities"
+      ],
+      "zh": [
+        "通过左右移动鼠标来移动角色",
+        "选择能给你最佳数量的门",
+        "避开红色门和危险陷阱",
+        "把握攻击敌人的时机",
+        "收集金币升级你的能力"
+      ]
+    },
+    "features": {
+      "en": [
+        "Fast-paced 3D runner with epic crowd battles",
+        "Fun strategy and math choices with every gate",
+        "Boss fights and challenging traps",
+        "Colorful, satisfying visuals and smooth controls",
+        "Upgrade system for starting crowd and gate bonuses"
+      ],
+      "zh": [
+        "快节奏3D跑酷与史诗人群战斗",
+        "每个门都有有趣的策略和数学选择",
+        "Boss战和挑战性陷阱",
+        "丰富多彩、令人满意的视觉效果和流畅控制",
+        "起始人群和门奖励的升级系统"
+      ]
+    },
+    "tips": {
+      "en": [
+        "Don't just rush forward—choose gates strategically",
+        "Avoid red gates that shrink your army",
+        "Upgrade your starting crowd early",
+        "Watch enemy movements and time attacks",
+        "Save coins between runs for upgrades"
+      ],
+      "zh": [
+        "不要只是向前冲——策略性地选择门",
+        "避开会缩小你军队的红色门",
+        "尽早升级你的起始人群",
+        "观察敌人动作并把握攻击时机",
+        "在跑步间隙保存金币用于升级"
+      ]
+    }
+  },
+  {
+    "id": "buildnow-gg",
+    "name": {
+      "en": "BuildNow GG",
+      "zh": "建造大师"
+    },
+    "category": "action",
+    "cover": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMWExYTJlIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iI2ZmMDBmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkJ1aWxkTm93IEdHPC90ZXh0Pjwvc3ZnPg==",
+    "iframe": "https://www.crazygames.com/embed/buildnow-gg",
+    "description": {
+      "en": "BuildNow GG is an online build-and-shoot game featuring various game modes, weapons, and maps. Build and battle your way to the top of the leaderboard and hone your skills in offline training mode.",
+      "zh": "建造大师是一款在线建造射击游戏，具有各种游戏模式、武器和地图。建造和战斗，登上排行榜榜首，在离线训练模式中磨练你的技能。"
+    },
+    "howto": {
+      "en": [
+        "WASD or arrow keys to move, Space to jump",
+        "Q = wall, C = floor, V = ramp, Left shift = roof",
+        "Left-click to fire, Right-click to aim",
+        "Use numbers 1-5 to switch weapons",
+        "F to edit buildings, B for emotes"
+      ],
+      "zh": [
+        "WASD或方向键移动，空格跳跃",
+        "Q=墙，C=地板，V=斜坡，左Shift=屋顶",
+        "左键射击，右键瞄准",
+        "使用数字1-5切换武器",
+        "F编辑建筑，B表情"
+      ]
+    },
+    "features": {
+      "en": [
+        "5 action-packed game modes",
+        "Build and battle mechanics",
+        "Play privately with up to 6 players",
+        "Fully customizable controls and graphics",
+        "Offline training mode available"
+      ],
+      "zh": [
+        "5种动作丰富的游戏模式",
+        "建造和战斗机制",
+        "最多6人私人游戏",
+        "完全可定制的控制和图形",
+        "可用的离线训练模式"
+      ]
+    },
+    "tips": {
+      "en": [
+        "Practice building in aim training mode",
+        "Master the quick edit controls",
+        "Use cover while reloading",
+        "Learn weapon switching for different situations",
+        "Build defensively when under fire"
+      ],
+      "zh": [
+        "在瞄准训练模式中练习建造",
+        "掌握快速编辑控制",
+        "重新装弹时使用掩护",
+        "学习在不同情况下切换武器",
+        "受到攻击时进行防御性建造"
+      ]
+    }
+  }
+]

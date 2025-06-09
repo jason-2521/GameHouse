@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leap Void - Epic Cyberpunk Platformer Game | Games House</title>
-    <meta name="description" content="Play Leap Void online - An intense cyberpunk platformer where you leap through neon-lit obstacles in a futuristic world. Challenge your reflexes and survive!">
-    <link rel="canonical" href="https://games-house.com/leapvoid" />
+    <title>Games House - Play Free Online Games</title>
+    <meta name="description" content="Games House: Play free online games across categories like Action, Puzzle, Adventure and more. Discover, search and enjoy top browser games!">
+    <link rel="canonical" href="https://games-house.com/" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -43,6 +44,9 @@
             aspect-ratio: 16/9;
             max-height: 80vh;
         }
+        
+        .game-card { transition: transform 0.2s, box-shadow 0.2s; }
+        .game-card:hover { transform: translateY(-4px) scale(1.03); box-shadow: 0 8px 32px #00ffff44; }
     </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-E3K854L399"></script>
@@ -54,143 +58,134 @@
     </script>
 </head>
 <body class="min-h-screen">
-    <header class="bg-cyber-dark py-6 px-4 md:px-8">
-        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
-            <div>
-                <h1 id="title" class="text-4xl md:text-6xl font-bold text-center cyber-glow text-cyber-pink mb-4">
-                    Leap Void
-                </h1>
-                <p id="subtitle" class="text-xl md:text-2xl text-center text-cyber-blue mb-8">
-                    Master the art of survival in this neon-lit cyberpunk platformer
-                </p>
+    <header class="bg-cyber-dark py-4 px-4 md:px-8 sticky top-0 z-50">
+        <nav class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <a href="index.html" class="text-3xl font-bold text-cyber-pink cyber-glow mb-2 md:mb-0">Games House</a>
+            <div class="flex space-x-4 mb-2 md:mb-0">
+                <a href="#action" class="text-cyber-blue hover:underline" id="nav-action">Action</a>
+                <a href="#puzzle" class="text-cyber-blue hover:underline" id="nav-puzzle">Puzzle</a>
             </div>
-            <div class="mt-4 md:mt-0 flex justify-center md:justify-end w-full md:w-auto">
-                <button id="lang-en" class="mr-2 px-3 py-1 rounded cyber-border text-cyber-blue bg-cyber-dark">English</button>
-                <button id="lang-zh" class="px-3 py-1 rounded cyber-border text-cyber-pink bg-cyber-dark">中文</button>
+            <div class="flex items-center space-x-2">
+                <input id="search-input" type="text" placeholder="Search games..." class="px-2 py-1 rounded border border-cyber-blue bg-cyber-dark text-white focus:outline-none" />
+                <button id="lang-en" class="px-2 py-1 rounded cyber-border text-cyber-blue bg-cyber-dark">English</button>
+                <button id="lang-zh" class="px-2 py-1 rounded cyber-border text-cyber-pink bg-cyber-dark">中文</button>
             </div>
-        </div>
+        </nav>
     </header>
-
-    <main class="container mx-auto px-4 py-8">
-        <div class="game-container w-full mx-auto cyber-border rounded-lg overflow-hidden mb-8">
-            <iframe src="https://www.crazygames.com/embed/leap-and-avoid-2" 
-                    style="width: 100%; height: 100%;" 
-                    frameborder="0" 
-                    allow="gamepad *;">
-            </iframe>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <section class="cyber-border p-6 rounded-lg">
-                <h2 id="overview-title" class="text-2xl md:text-3xl font-bold text-cyber-pink mb-4">Game Overview</h2>
-                <p id="overview-desc" class="text-gray-300 leading-relaxed">
-                    Leap Void is an intense platformer that tests your reflexes and timing. Navigate through a futuristic world filled with neon obstacles and deadly traps. Your mission is simple: survive as long as possible while collecting power-ups and achieving high scores.
-                </p>
-            </section>
-
-            <section class="cyber-border p-6 rounded-lg">
-                <h2 id="how-title" class="text-2xl md:text-3xl font-bold text-cyber-pink mb-4">How to Play</h2>
-                <ul class="text-gray-300 space-y-2">
-                    <li id="how-1">• Use arrow keys or WASD to control your character</li>
-                    <li id="how-2">• Time your jumps perfectly to avoid obstacles</li>
-                    <li id="how-3">• Collect power-ups to enhance your abilities</li>
-                    <li id="how-4">• Survive as long as possible to achieve high scores</li>
-                </ul>
-            </section>
-
-            <section class="cyber-border p-6 rounded-lg">
-                <h2 id="features-title" class="text-2xl md:text-3xl font-bold text-cyber-pink mb-4">Features</h2>
-                <ul class="text-gray-300 space-y-2">
-                    <li id="features-1">• Stunning cyberpunk visuals</li>
-                    <li id="features-2">• Progressive difficulty system</li>
-                    <li id="features-3">• Power-up system</li>
-                    <li id="features-4">• Global leaderboards</li>
-                    <li id="features-5">• Responsive controls</li>
-                </ul>
-            </section>
-
-            <section class="cyber-border p-6 rounded-lg">
-                <h2 id="tips-title" class="text-2xl md:text-3xl font-bold text-cyber-pink mb-4">Tips & Tricks</h2>
-                <ul class="text-gray-300 space-y-2">
-                    <li id="tips-1">• Watch for pattern changes in obstacles</li>
-                    <li id="tips-2">• Don't get greedy with power-ups</li>
-                    <li id="tips-3">• Practice timing your jumps</li>
-                    <li id="tips-4">• Stay focused on upcoming obstacles</li>
-                </ul>
-            </section>
-        </div>
-    </main>
-
+    <main id="main-content" class="container mx-auto px-4 py-8"></main>
     <footer class="bg-cyber-dark py-6 px-4 mt-8">
         <div class="container mx-auto text-center text-gray-400">
-            <p id="footer">&copy; 2024 Games House. All rights reserved.</p>
+            <p id="footer">© 2024 Games House. All rights reserved.</p>
         </div>
     </footer>
-
     <script>
-    const translations = {
-        en: {
-            title: "Leap Void",
-            subtitle: "Master the art of survival in this neon-lit cyberpunk platformer",
-            "overview-title": "Game Overview",
-            "overview-desc": "Leap Void is an intense platformer that tests your reflexes and timing. Navigate through a futuristic world filled with neon obstacles and deadly traps. Your mission is simple: survive as long as possible while collecting power-ups and achieving high scores.",
-            "how-title": "How to Play",
-            "how-1": "• Use arrow keys or WASD to control your character",
-            "how-2": "• Time your jumps perfectly to avoid obstacles",
-            "how-3": "• Collect power-ups to enhance your abilities",
-            "how-4": "• Survive as long as possible to achieve high scores",
-            "features-title": "Features",
-            "features-1": "• Stunning cyberpunk visuals",
-            "features-2": "• Progressive difficulty system",
-            "features-3": "• Power-up system",
-            "features-4": "• Global leaderboards",
-            "features-5": "• Responsive controls",
-            "tips-title": "Tips & Tricks",
-            "tips-1": "• Watch for pattern changes in obstacles",
-            "tips-2": "• Don't get greedy with power-ups",
-            "tips-3": "• Practice timing your jumps",
-            "tips-4": "• Stay focused on upcoming obstacles",
-            footer: "© 2024 Games House. All rights reserved."
-        },
-        zh: {
-            title: "虚空跃迁",
-            subtitle: "在霓虹赛博世界中掌握生存艺术",
-            "overview-title": "游戏简介",
-            "overview-desc": "虚空跃迁是一款考验反应和时机的高强度平台跳跃游戏。穿越充满霓虹障碍和致命陷阱的未来世界。你的任务很简单：尽可能长时间生存，同时收集强化道具并争取高分。",
-            "how-title": "玩法说明",
-            "how-1": "• 使用方向键或WASD控制角色",
-            "how-2": "• 精准把握跳跃时机以避开障碍",
-            "how-3": "• 收集强化道具提升能力",
-            "how-4": "• 尽可能长时间生存以获得高分",
-            "features-title": "游戏特色",
-            "features-1": "• 赛博朋克视觉盛宴",
-            "features-2": "• 难度逐步提升系统",
-            "features-3": "• 强化道具系统",
-            "features-4": "• 全球排行榜",
-            "features-5": "• 响应式操作体验",
-            "tips-title": "小贴士",
-            "tips-1": "• 注意障碍物的变化规律",
-            "tips-2": "• 不要贪心收集道具",
-            "tips-3": "• 多练习跳跃时机",
-            "tips-4": "• 保持专注于前方障碍",
-            footer: "© 2024 Games House. 保留所有权利。"
-        }
-    };
-
-    function setLanguage(lang) {
-        const dict = translations[lang];
-        for (const key in dict) {
-            const el = document.getElementById(key);
-            if (el) {
-                el.textContent = dict[key];
-            }
-        }
+const LANGS = ['en', 'zh'];
+let currentLang = 'en';
+let gamesData = [];
+const CATEGORY_LABELS = {
+  action: {en: 'Action Games', zh: '动作类游戏'},
+  puzzle: {en: 'Puzzle Games', zh: '益智类游戏'}
+};
+const UI_LABELS = {
+  search: {en: 'Search games...', zh: '搜索游戏...'},
+  play: {en: 'Play Now', zh: '进入游戏'},
+  nav: {
+    action: {en: 'Action', zh: '动作'},
+    puzzle: {en: 'Puzzle', zh: '益智'}
+  },
+  footer: {en: '© 2024 Games House. All rights reserved.', zh: '© 2024 Games House. 保留所有权利。'}
+};
+function renderGames(games) {
+  // 分类分组
+  const categories = {};
+  games.forEach(game => {
+    if (!categories[game.category]) categories[game.category] = [];
+    categories[game.category].push(game);
+  });
+  let html = '';
+  for (const [cat, games] of Object.entries(categories)) {
+    html += `<section id="${cat}" class="mb-10">
+      <h2 class="text-2xl md:text-3xl font-bold text-cyber-pink mb-6">${CATEGORY_LABELS[cat] ? CATEGORY_LABELS[cat][currentLang] : cat}</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">`;
+    games.forEach(game => {
+      html += `
+        <div class="game-card bg-cyber-dark cyber-border rounded-lg overflow-hidden flex flex-col">
+          <img src="${game.cover}" alt="${game.name[currentLang]}" class="w-full h-40 object-cover">
+          <div class="p-4 flex-1 flex flex-col">
+            <h3 class="text-xl font-bold text-cyber-pink mb-2">${game.name[currentLang]}</h3>
+            <p class="text-gray-300 mb-4 flex-1">${game.description[currentLang]}</p>
+            <a href="games/${game.id}.html" class="mt-auto inline-block px-4 py-2 bg-cyber-blue text-cyber-dark font-bold rounded hover:bg-cyber-pink hover:text-white transition">${UI_LABELS.play[currentLang]}</a>
+          </div>
+        </div>`;
+    });
+    html += `</div></section>`;
+  }
+  document.getElementById('main-content').innerHTML = html;
+}
+document.getElementById('search-input').addEventListener('input', function(e) {
+  const val = e.target.value.toLowerCase();
+  renderGames(gamesData.filter(game =>
+    game.name[currentLang].toLowerCase().includes(val) ||
+    game.description[currentLang].toLowerCase().includes(val)
+  ));
+});
+document.getElementById('lang-en').onclick = function() { currentLang = 'en'; updateUILang(); renderGames(gamesData); };
+document.getElementById('lang-zh').onclick = function() { currentLang = 'zh'; updateUILang(); renderGames(gamesData); };
+function updateUILang() {
+  document.getElementById('search-input').placeholder = UI_LABELS.search[currentLang];
+  document.getElementById('nav-action').textContent = UI_LABELS.nav.action[currentLang];
+  document.getElementById('nav-puzzle').textContent = UI_LABELS.nav.puzzle[currentLang];
+  document.getElementById('footer').textContent = UI_LABELS.footer[currentLang];
+}
+function loadGamesData() {
+  // 尝试的路径列表
+  const paths = [
+    './assets/games.json',
+    './games.json',
+    'assets/games.json',
+    'games.json'
+  ];
+  
+  // 尝试第一个路径
+  tryNextPath(0);
+  
+  function tryNextPath(index) {
+    if (index >= paths.length) {
+      // 所有路径都失败了
+      document.getElementById('main-content').innerHTML = `
+        <div class="p-6 bg-cyber-dark cyber-border rounded-lg text-center">
+          <h2 class="text-2xl text-cyber-pink mb-4">Games loading error</h2>
+          <p class="text-gray-300">Unable to load games data. Please try refreshing the page.</p>
+          <p class="text-gray-400 mt-2">Error details: All paths failed</p>
+        </div>
+      `;
+      return;
     }
+    
+    console.log("Trying to load from:", paths[index]);
+    fetch(paths[index])
+      .then(r => {
+        if (!r.ok) {
+          throw new Error(`HTTP error! status: ${r.status}`);
+        }
+        return r.json();
+      })
+      .then(data => {
+        console.log("Games data loaded from:", paths[index], data);
+        gamesData = data;
+        renderGames(gamesData);
+        updateUILang();
+      })
+      .catch(error => {
+        console.error(`Error loading from ${paths[index]}:`, error);
+        // 尝试下一个路径
+        tryNextPath(index + 1);
+      });
+  }
+}
 
-    document.getElementById('lang-en').onclick = function() { setLanguage('en'); };
-    document.getElementById('lang-zh').onclick = function() { setLanguage('zh'); };
-    // 默认语言
-    setLanguage('en');
+// 启动加载过程
+loadGamesData();
     </script>
 </body>
 </html> 
