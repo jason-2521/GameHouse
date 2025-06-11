@@ -49,6 +49,42 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://games-house.com/games/buildnow-gg.html" />
   </url>
 
+  <url>
+    <loc>https://games-house.com/games/immortal-dark-slayer.html</loc>
+    <lastmod>2024-12-10</lastmod>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-house.com/games/immortal-dark-slayer.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://games-house.com/games/immortal-dark-slayer.html" />
+  </url>
+
+  <url>
+    <loc>https://games-house.com/games/run-3.html</loc>
+    <lastmod>2024-12-10</lastmod>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-house.com/games/run-3.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://games-house.com/games/run-3.html" />
+  </url>
+
+  <url>
+    <loc>https://games-house.com/games/paper-minecraft.html</loc>
+    <lastmod>2024-12-10</lastmod>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-house.com/games/paper-minecraft.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://games-house.com/games/paper-minecraft.html" />
+  </url>
+
+  <url>
+    <loc>https://games-house.com/games/voxiom-io.html</loc>
+    <lastmod>2024-12-10</lastmod>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-house.com/games/voxiom-io.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://games-house.com/games/voxiom-io.html" />
+  </url>
+
   <!-- 兼容旧URL -->
   <url>
     <loc>https://games-house.com/games/leapvoid.html</loc>
@@ -81,6 +117,20 @@
 
   <url>
     <loc>https://games-house.com/#puzzle</loc>
+    <lastmod>2024-12-10</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://games-house.com/#adventure</loc>
+    <lastmod>2024-12-10</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://games-house.com/#shooting</loc>
     <lastmod>2024-12-10</lastmod>
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>

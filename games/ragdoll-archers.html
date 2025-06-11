@@ -29,6 +29,8 @@
             <div class="flex space-x-4 mb-2 md:mb-0">
                 <a href="../index.html#action" class="text-cyber-blue hover:underline" id="nav-action">Action</a>
                 <a href="../index.html#puzzle" class="text-cyber-blue hover:underline" id="nav-puzzle">Puzzle</a>
+                <a href="../index.html#adventure" class="text-cyber-blue hover:underline" id="nav-adventure">Adventure</a>
+                <a href="../index.html#shooting" class="text-cyber-blue hover:underline" id="nav-shooting">Shooting</a>
             </div>
             <div class="flex items-center space-x-2">
                 <input id="search-input" type="text" placeholder="Search games..." class="px-2 py-1 rounded border border-cyber-blue bg-cyber-dark text-white focus:outline-none" />
@@ -48,14 +50,18 @@ const LANGS = ['en', 'zh'];
 let currentLang = 'en';
 const CATEGORY_LABELS = {
   action: {en: 'Action Games', zh: '动作类游戏'},
-  puzzle: {en: 'Puzzle Games', zh: '益智类游戏'}
+  puzzle: {en: 'Puzzle Games', zh: '益智类游戏'},
+  adventure: {en: 'Adventure Games', zh: '冒险类游戏'},
+  shooting: {en: 'Shooting Games', zh: '射击类游戏'}
 };
 const UI_LABELS = {
   search: {en: 'Search games...', zh: '搜索游戏...'},
   play: {en: 'Play Now', zh: '进入游戏'},
   nav: {
     action: {en: 'Action', zh: '动作'},
-    puzzle: {en: 'Puzzle', zh: '益智'}
+    puzzle: {en: 'Puzzle', zh: '益智'},
+    adventure: {en: 'Adventure', zh: '冒险'},
+    shooting: {en: 'Shooting', zh: '射击'}
   },
   footer: {en: '© 2024 Games House. All rights reserved.', zh: '© 2024 Games House. 保留所有权利。'},
   overview: {en: 'Game Overview', zh: '游戏简介'},
@@ -97,6 +103,8 @@ function updateUILang() {
   document.getElementById('search-input').placeholder = UI_LABELS.search[currentLang];
   document.getElementById('nav-action').textContent = UI_LABELS.nav.action[currentLang];
   document.getElementById('nav-puzzle').textContent = UI_LABELS.nav.puzzle[currentLang];
+  document.getElementById('nav-adventure').textContent = UI_LABELS.nav.adventure[currentLang];
+  document.getElementById('nav-shooting').textContent = UI_LABELS.nav.shooting[currentLang];
   document.getElementById('footer').textContent = UI_LABELS.footer[currentLang];
 }
 function loadGameData() {

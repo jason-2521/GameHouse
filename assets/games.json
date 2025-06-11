@@ -6,7 +6,7 @@
       "zh": "跳跃躲避2"
     },
     "category": "puzzle",
-    "cover": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMWExYTJlIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzAwZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkxlYXAgYW5kIEF2b2lkIDI8L3RleHQ+PC9zdmc+",
+    "cover": "https://imgs.crazygames.com/leap-and-avoid-2_16x9/20250513041850/leap-and-avoid-2_16x9-cover?metadata=none&quality=75&width=400&height=225&fit=crop",
     "iframe": "https://www.crazygames.com/embed/leap-and-avoid-2",
     "description": {
       "en": "Leap and Avoid 2 is a thrilling platform adventure where you guide a nimble white ball through treacherous caves and high-tech labs. Navigate white platforms, dodge the deadly black ones, and uncover hidden paths brimming with coins.",
@@ -66,7 +66,7 @@
       "zh": "布娃娃弓箭手"
     },
     "category": "action",
-    "cover": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMWExYTJlIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iI2ZmMDBmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPlJhZ2RvbGwgQXJjaGVyczwvdGV4dD48L3N2Zz4=",
+    "cover": "https://imgs.crazygames.com/ragdoll-archers_16x9/20240205020743/ragdoll-archers_16x9-cover?metadata=none&quality=75&width=400&height=225&fit=crop",
     "iframe": "https://www.crazygames.com/embed/ragdoll-archers",
     "description": {
       "en": "Ragdoll Archers is an archery game featuring bow and arrow-equipped stickmen with ragdoll physics. Fire arrows at a range of opponents while earning points to upgrade your abilities and ammunition.",
@@ -128,7 +128,7 @@
       "zh": "计数大师：火柴人游戏"
     },
     "category": "action",
-    "cover": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMWExYTJlIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzAwZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkNvdW50IE1hc3RlcnM8L3RleHQ+PC9zdmc+",
+    "cover": "https://imgs.crazygames.com/count-masters-stickman-games_16x9/20250220041115/count-masters-stickman-games_16x9-cover?metadata=none&quality=75&width=400&height=225&fit=crop",
     "iframe": "https://www.crazygames.com/embed/count-masters-stickman-games",
     "description": {
       "en": "Count Masters: Stickman Games is a fast-paced running game where you gather a growing army of stickmen to clash against rival crowds. Navigate through obstacles, choose the best paths to multiply your numbers, and lead your team to victory.",
@@ -190,7 +190,7 @@
       "zh": "建造大师"
     },
     "category": "action",
-    "cover": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMWExYTJlIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iI2ZmMDBmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkJ1aWxkTm93IEdHPC90ZXh0Pjwvc3ZnPg==",
+    "cover": "https://imgs.crazygames.com/buildnow-gg_16x9/20250217093036/buildnow-gg_16x9-cover?metadata=none&quality=75&width=400&height=225&fit=crop",
     "iframe": "https://www.crazygames.com/embed/buildnow-gg",
     "description": {
       "en": "BuildNow GG is an online build-and-shoot game featuring various game modes, weapons, and maps. Build and battle your way to the top of the leaderboard and hone your skills in offline training mode.",
@@ -242,6 +242,258 @@
         "重新装弹时使用掩护",
         "学习在不同情况下切换武器",
         "受到攻击时进行防御性建造"
+      ]
+    }
+  },
+  {
+    "id": "immortal-dark-slayer",
+    "name": {
+      "en": "Immortal Dark Slayer",
+      "zh": "不朽黑暗杀手"
+    },
+    "category": "action",
+    "cover": "https://imgs.crazygames.com/immortal-dark-slayer_16x9/20250421094104/immortal-dark-slayer_16x9-cover?metadata=none&quality=75&width=400&height=225&fit=crop",
+    "iframe": "https://www.crazygames.com/embed/immortal-dark-slayer",
+    "description": {
+      "en": "Immortal: Dark Slayer is a top-down action RPG that puts you in the armor of a Fallen Knight, battling to purge the realm of demons, the undead, and creeping chaos. Drawing inspiration from the punishing combat of Dark Souls and Elden Ring, it delivers the same gritty challenge, reimagined with a top-down perspective and streamlined controls.",
+      "zh": "不朽：黑暗杀手是一款俯视角动作RPG游戏，你将扮演堕落骑士，战斗清除恶魔、亡灵和蔓延的混沌。游戏汲取了黑暗之魂和艾尔登法环的惩罚性战斗灵感，以俯视角度和简化控制重新诠释了同样严峻的挑战。"
+    },
+    "howto": {
+      "en": [
+        "Use WASD or arrow keys to move your character",
+        "Left mouse button to interact with in-game UI",
+        "Engage in strategic combat against demons and undead",
+        "Explore the dark realm and uncover secrets",
+        "Upgrade your equipment and abilities"
+      ],
+      "zh": [
+        "使用WASD或方向键移动角色",
+        "左键点击与游戏UI交互",
+        "与恶魔和亡灵进行策略性战斗",
+        "探索黑暗领域并发现秘密",
+        "升级装备和能力"
+      ]
+    },
+    "features": {
+      "en": [
+        "Dark Souls-inspired challenging combat",
+        "Top-down perspective with streamlined controls",
+        "Battle demons, undead, and chaotic forces",
+        "Rich RPG progression system",
+        "Atmospheric dark fantasy setting"
+      ],
+      "zh": [
+        "黑暗之魂风格的挑战性战斗",
+        "俯视角度配合简化控制",
+        "与恶魔、亡灵和混沌力量战斗",
+        "丰富的RPG成长系统",
+        "氛围浓厚的黑暗奇幻设定"
+      ]
+    },
+    "tips": {
+      "en": [
+        "Study enemy attack patterns before engaging",
+        "Manage your resources carefully in combat",
+        "Explore thoroughly to find better equipment",
+        "Learn to time your attacks and dodges",
+        "Don't rush - patience is key to survival"
+      ],
+      "zh": [
+        "交战前仔细观察敌人的攻击模式",
+        "在战斗中谨慎管理资源",
+        "彻底探索以找到更好的装备",
+        "学会把握攻击和闪避的时机",
+        "不要急躁 - 耐心是生存的关键"
+      ]
+    }
+  },
+  {
+    "id": "run-3",
+    "name": {
+      "en": "Run 3",
+      "zh": "跑酷3"
+    },
+    "category": "action",
+    "cover": "https://imgs.crazygames.com/run3b.png?metadata=none&quality=75&width=400&height=225&fit=crop",
+    "iframe": "https://www.crazygames.com/embed/run-3",
+    "description": {
+      "en": "Explore outer space in Run 3. Run 3 is an incredibly addicting, endless runner-type action/platforming game in which you play as a little grey alien. The little alien is trespassing in an architecturally challenged area that is floating in space.",
+      "zh": "在跑酷3中探索外太空。跑酷3是一款极其令人上瘾的无尽跑酷类动作/平台游戏，你将扮演一个小灰色外星人。这个小外星人正在一个漂浮在太空中建筑结构奇特的区域中穿行。"
+    },
+    "howto": {
+      "en": [
+        "Use SPACE or UP Arrow to jump",
+        "Use A or LEFT Arrow to move left",
+        "Use D or RIGHT Arrow to move right",
+        "Avoid falling into holes in space",
+        "Navigate through the challenging tunnel system"
+      ],
+      "zh": [
+        "使用空格键或上方向键跳跃",
+        "使用A键或左方向键向左移动",
+        "使用D键或右方向键向右移动",
+        "避免掉入太空中的洞穴",
+        "在充满挑战的隧道系统中导航"
+      ]
+    },
+    "features": {
+      "en": [
+        "Addictive endless runner gameplay",
+        "Unique space tunnel environment",
+        "Multiple characters to unlock",
+        "Challenging gravity-defying mechanics",
+        "Progressive difficulty levels"
+      ],
+      "zh": [
+        "令人上瘾的无尽跑酷玩法",
+        "独特的太空隧道环境",
+        "多个可解锁角色",
+        "挑战性的反重力机制",
+        "渐进式难度等级"
+      ]
+    },
+    "tips": {
+      "en": [
+        "Watch your step - one wrong move sends you to space",
+        "Learn the tunnel layouts for better navigation",
+        "Time your jumps carefully",
+        "Try different characters for varied gameplay",
+        "Practice makes perfect in this challenging runner"
+      ],
+      "zh": [
+        "小心脚下 - 一步走错就会飘向太空",
+        "学习隧道布局以便更好地导航",
+        "仔细把握跳跃时机",
+        "尝试不同角色体验多样玩法",
+        "在这个充满挑战的跑酷游戏中熟能生巧"
+      ]
+    }
+  },
+  {
+    "id": "paper-minecraft",
+    "name": {
+      "en": "Paper Minecraft",
+      "zh": "纸片我的世界"
+    },
+    "category": "adventure",
+    "cover": "https://imgs.crazygames.com/games/paper-minecraft/cover-1655211126030.png?metadata=none&quality=75&width=400&height=225&fit=crop",
+    "iframe": "https://www.crazygames.com/embed/paper-minecraft",
+    "description": {
+      "en": "Paper Minecraft is an adventure game that brings the legendary Minecraft into a 2D world. Choose your character and preferred game mode to jump into the fun! This Scratch game features the classic survival and creative modes from the original Minecraft game.",
+      "zh": "纸片我的世界是一款冒险游戏，将传奇的Minecraft带入2D世界。选择你的角色和喜欢的游戏模式开始游戏！这款Scratch游戏具有原版Minecraft游戏的经典生存和创造模式。"
+    },
+    "howto": {
+      "en": [
+        "Use AD or left/right arrow keys to move",
+        "Use W or up arrow key to jump",
+        "Left-click to dig or place blocks",
+        "Press E to open inventory or chests",
+        "Press F to eat and hold an item",
+        "Use Space to split items in crafting menu"
+      ],
+      "zh": [
+        "使用AD或左右方向键移动",
+        "使用W或上方向键跳跃",
+        "左键点击挖掘或放置方块",
+        "按E键打开背包或箱子",
+        "按F键吃东西和拿取物品",
+        "在合成菜单中使用空格键分割物品"
+      ]
+    },
+    "features": {
+      "en": [
+        "2D version of the classic Minecraft experience",
+        "Both survival and creative game modes",
+        "Block building and mining mechanics",
+        "Character customization options",
+        "Familiar Minecraft-style gameplay"
+      ],
+      "zh": [
+        "经典Minecraft体验的2D版本",
+        "生存和创造两种游戏模式",
+        "方块建造和挖掘机制",
+        "角色自定义选项",
+        "熟悉的Minecraft风格玩法"
+      ]
+    },
+    "tips": {
+      "en": [
+        "Start by gathering basic resources like wood and stone",
+        "Build shelter before nightfall in survival mode",
+        "Experiment with different block combinations",
+        "Use creative mode to practice building techniques",
+        "Explore the world to find rare materials"
+      ],
+      "zh": [
+        "从收集木材和石头等基础资源开始",
+        "在生存模式中天黑前建造庇护所",
+        "尝试不同的方块组合",
+        "使用创造模式练习建造技巧",
+        "探索世界寻找稀有材料"
+      ]
+    }
+  },
+  {
+    "id": "voxiom-io",
+    "name": {
+      "en": "Voxiom.io",
+      "zh": "体素大战"
+    },
+    "category": "shooting",
+    "cover": "https://imgs.crazygames.com/games/voxiom-io/cover_16x9-1714408559317.png?metadata=none&quality=75&width=400&height=225&fit=crop",
+    "iframe": "https://www.crazygames.com/embed/voxiom-io",
+    "description": {
+      "en": "Voxiom.io is a 3D real-time multiplayer first-person voxel shooter featuring destructible maps. The game is inspired by popular titles, such as Minecraft, Fortnite, Counter-Strike, and Call of Duty. Currently, the game features 4 game modes: capture the gems, battle royale, survival, and free-for-all.",
+      "zh": "体素大战是一款3D实时多人第一人称体素射击游戏，具有可破坏的地图。游戏灵感来自Minecraft、堡垒之夜、反恐精英和使命召唤等热门游戏。目前游戏包含4种游戏模式：夺取宝石、大逃杀、生存和自由混战。"
+    },
+    "howto": {
+      "en": [
+        "Use WASD to move, Space to jump",
+        "Hold C to crouch, Hold Shift to sprint",
+        "Left mouse button for primary action (shoot/use item)",
+        "Right mouse button or F for secondary action",
+        "Press X to open inventory",
+        "Hold Tab to view map"
+      ],
+      "zh": [
+        "使用WASD移动，空格键跳跃",
+        "按住C蹲下，按住Shift冲刺",
+        "左键进行主要动作（射击/使用物品）",
+        "右键或F键进行次要动作",
+        "按X键打开背包",
+        "按住Tab键查看地图"
+      ]
+    },
+    "features": {
+      "en": [
+        "3D voxel-based destructible environments",
+        "Multiple game modes including Battle Royale",
+        "Real-time multiplayer combat",
+        "Building and crafting mechanics",
+        "Inspired by popular FPS and survival games"
+      ],
+      "zh": [
+        "3D体素可破坏环境",
+        "包括大逃杀在内的多种游戏模式",
+        "实时多人战斗",
+        "建造和合成机制",
+        "受热门FPS和生存游戏启发"
+      ]
+    },
+    "tips": {
+      "en": [
+        "Use the destructible environment to your advantage",
+        "Build cover and strategic positions",
+        "Learn the different game modes and their objectives",
+        "Manage your inventory and resources wisely",
+        "Practice your aim and movement in free-for-all mode"
+      ],
+      "zh": [
+        "利用可破坏环境获得优势",
+        "建造掩护和战略位置",
+        "学习不同游戏模式及其目标",
+        "明智地管理背包和资源",
+        "在自由混战模式中练习瞄准和移动"
       ]
     }
   }
